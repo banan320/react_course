@@ -2,6 +2,24 @@
   text-align: center;
   padding: 15px;
 }
+/* встроенный класс в react-router для NavLink */
+/* .active {
+  color: lightyellow;
+  text-decoration: underline;
+} */
+
+.activeLink {
+  color: lightyellow;
+  text-decoration: underline;
+}
+
+.courseLink {
+  font-size: 25px;
+  text-decoration: none;
+}
+.courseLink:hover {
+  text-decoration: underline;
+}
 
 button {
   padding: 7px;
@@ -12,4 +30,17 @@ button {
 
 h1 {
   font-size: 40px;
+}
+
+a {
+  color: lightblue;
+  font-size: 35px;
+}
+nav {
+  background-color: #446161;
+  padding: 5px;
+}
+nav a {
+  margin: 15px;
+  text-decoration: none;
 }
